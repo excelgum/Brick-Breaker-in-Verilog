@@ -1,0 +1,8 @@
+<sld_project_info>
+  <file_info>
+    <file checksum="0x0051A48F" device="EP2C35F672C6" path="background.sof" usercode="0xFFFFFFFF"/>
+    <file checksum="0x1C3FD481" device="EPCS16" path="background.pof" usercode="0x00000000"/>
+  </file_info>
+  <hub_info ir_width="0" node_count="0"/>
+  <node_info/>
+</sld_project_info>

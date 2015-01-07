@@ -1,0 +1,26 @@
+
+State Machine - |BrickBreaker|FSM_Draw:comb_5|state
+Name state.BRICK_incY state.ITERY_brick state.ITERX_brick state.BRICK_incX state.BRICK state.DONE state.ITERY_ball state.ITERX_ball state.BALL state.ITERY_paddle state.ITERX_paddle state.PADDLE state.ITERY_clear state.ITERX_clear state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.ITERX_clear 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.ITERY_clear 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.PADDLE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.ITERX_paddle 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.ITERY_paddle 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.BALL 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.ITERX_ball 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.ITERY_ball 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.DONE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.BRICK 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.BRICK_incX 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.ITERX_brick 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.ITERY_brick 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.BRICK_incY 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |BrickBreaker|FSM_Main:comb_4|state
+Name state.WAIT state.DISPLAY state.INITIAL state.UPDATE state.DONE 
+state.UPDATE 0 0 0 0 0 
+state.INITIAL 0 0 1 1 0 
+state.DISPLAY 0 1 0 1 0 
+state.WAIT 1 0 0 1 0 
+state.DONE 0 0 0 1 1 

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="background">
+		<CBX_INST_ENTRY INSTANCE_NAME="|BrickBreaker|vga_adapter:VGA|altsyncram:VideoMemory" CBX_FILE_NAME="altsyncram_d3g1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

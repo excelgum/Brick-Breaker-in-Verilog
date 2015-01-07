@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 24 01:14:08 2014
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
+Revision Name : background
+Top-level Entity Name : BrickBreaker
+Family : Cyclone II
+Total logic elements : 595
+    Total combinational functions : 589
+    Dedicated logic registers : 154
+Total registers : 154
+Total pins : 84
+Total virtual pins : 0
+Total memory bits : 57,600
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
